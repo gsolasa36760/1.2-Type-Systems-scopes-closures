@@ -1,0 +1,15 @@
+def add_numbers(a, b):
+    return a + b
+
+def multiply_numbers(a, b):
+    return a * b
+
+num1 = 5
+num2 = 10
+
+result_add = add_numbers(num1, num2)
+print(f"Addition result: {result_add}")
+
+
+result_multiply = multiply_numbers(num1, num2)
+print(f"Multiplication result: {result_multiply}")
