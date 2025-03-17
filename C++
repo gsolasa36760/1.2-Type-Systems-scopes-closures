@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int addNumbers(int a, int b) {
+    return a + b;
+}
+
+int multiplyNumbers(int a, int b) {
+    return a * b;
+}
+
+int main() {
+    int num1 = 5;
+    int num2 = 10;
+
+    int resultAdd = addNumbers(num1, num2);
+    cout << "Addition result: " << resultAdd << endl;
+
+    int resultMultiply = multiplyNumbers(num1, num2);
+    cout << "Multiplication result: " << resultMultiply << endl;
+
+    return 0;
+}
